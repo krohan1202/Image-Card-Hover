@@ -47,7 +47,7 @@
 .card1:hover h2 {
   opacity: 1;
 }
-.card1:hover .fa {
+.card1:hover .fab {
   opacity: 1;
 }
 
@@ -58,7 +58,9 @@ h2 {
   opacity: 0;
   transition: opacity 1s;
 }
-.fa {
+.fab {
+  width: 20px;
+  height: 20px;
   opacity: 0;
   transition: opacity 1s;
 }
@@ -66,9 +68,10 @@ h2 {
   position: absolute;
   fill: #fff;
   color: #fff;
-  height: 130px;
+  height: 60px;
   top: 226px;
-  width: 50px;
+  left: 67%;
+  width: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
