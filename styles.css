@@ -50,6 +50,12 @@
 .card1:hover .fab {
   opacity: 1;
 }
+.card1:hover #workDescription1 {
+  opacity: 1;
+}
+.card1:hover #workDescription2 {
+  opacity: 1;
+}
 
 h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -67,13 +73,23 @@ h2 {
 .icons {
   position: absolute;
   fill: #fff;
+}
+
+#workDescription1 {
+  position: absolute;
   color: #fff;
-  height: 60px;
-  top: 226px;
-  left: 67%;
-  width: 70px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
+  top: 68%;
+  left: 46%;
+  opacity: 0;
+  letter-spacing: 0.5px;
+}
+
+#workDescription2 {
+  position: absolute;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  top: 75.5%;
+  left: 51%;
+  opacity: 0;
 }
