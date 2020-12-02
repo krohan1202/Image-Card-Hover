@@ -65,16 +65,16 @@ h2 {
   transition: opacity 1s;
 }
 .fab {
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   opacity: 0;
   transition: opacity 1s;
 }
-.icons {
+#linkedIn {
   position: absolute;
-  fill: #fff;
+  top: 61%;
+  left: 84%;
 }
-
 #workDescription1 {
   position: absolute;
   color: #fff;
