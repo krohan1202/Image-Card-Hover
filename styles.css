@@ -37,11 +37,11 @@
 }
 
 .card1 {
-  background: url("pic.png") center center no-repeat;
+  background: url("pics/pic.png") center center no-repeat;
   background-size: 300px;
 }
 .card1:hover {
-  background: url("pic.png") right center no-repeat;
+  background: url("pics/pic.png") right center no-repeat;
   background-size: 600px;
 }
 .card1:hover h2 {
