@@ -1,6 +1,6 @@
 # Image-Card Hover
 
-Card shows the name &amp; description of me when hovered
+Card shows name &amp; description when hovered
 
 <details>
   <summary>:zap: Preview or <a href="https://krohan1202.github.io/Image-Card-Hover/" target="_blank"> See Live</a></summary>
