@@ -1,3 +1,10 @@
+function changeText()
+{
+ document.getElementById('heading_mobile').innerHTML = 'Click outside';
+}
+function clickOutsideCard() {
+  document.getElementById('heading_mobile').innerHTML = 'Click on card';
+}
 particlesJS("particles-js", {
     "particles": {
       "number": {
